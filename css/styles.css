@@ -1,7 +1,7 @@
 body{
   font-family: "Roboto", sans-serif;
   background-color: black;
-  color: antiquewhite;
+  color: #ffc600;
   margin: 0;
 }
 
@@ -69,4 +69,66 @@ a>p{
 
 header{
   display: flex;
+  justify-content: center;
+}
+
+#about-me{
+  align-self: center;
+}
+
+#project-section{
+  background-color: #ffc600;
+  color: #000000;
+  text-align: center;
+  padding: 10px 50px;
+}
+
+#project-container{
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project{
+  display: flex;
+  align-items: center;
+  margin: 50px;
+}
+
+.project-img{
+  width:40%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.project-img img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.project-text{
+  text-align: justify;
+  margin-left: 10px;
+}
+
+.project-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.project-btn a{
+  padding: 10px 20px;
+  background-color: #000000;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.project-btn small{
+  font-size: small;
+  font-weight: 700;
+  color: #505050;
 }
