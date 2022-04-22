@@ -27,3 +27,33 @@ const projects = [
     image: 'project4.jpg'
   }
 ];
+
+const skills = [
+  {
+    name: 'HTML',
+    level: 90,
+    category: 'Front-end'
+  },
+  {
+    name: 'CSS',
+    level: 80,
+    category: 'Front-end'
+  },
+  {
+    name: 'JAVASCRIPT',
+    level: 10,
+    category: 'Front-end'
+  },
+  {
+    name: 'FIGMA',
+    level: 50,
+    category: 'Design'
+  },
+  {
+    name: 'Product Management',
+    level: 60,
+    category: 'Business'
+  }
+
+
+]

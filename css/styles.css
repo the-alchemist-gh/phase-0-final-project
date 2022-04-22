@@ -150,3 +150,32 @@ background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, F
   color: #505050;
   margin-right: 30px;
 }
+
+#skills-section{
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  padding: 40px 0 100px 0;
+}
+
+#skills-container{
+  margin-top: 50px;
+}
+
+.skill-name{
+  margin:5px ;
+}
+
+.ph_meter {
+  background: lightgrey;
+  width: 50%;
+}
+.ph_meter:-moz-meter-optimum::-moz-meter-bar {
+  background:indianred;
+}
+.ph_meter:-moz-meter-sub-optimum::-moz-meter-bar {
+  background: antiquewhite;
+}
+.ph_meter:-moz-meter-sub-sub-optimum::-moz-meter-bar {
+  background: steelblue;
+}

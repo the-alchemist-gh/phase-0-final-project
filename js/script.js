@@ -1,8 +1,8 @@
 const projectsContainer = document.getElementById('project-container');
-let askName = prompt('Hi, Kindly Enter your name?');
-let getName = document.getElementById('get-name');
+// let askName = prompt('Hi, Kindly Enter your name?');
+// let getName = document.getElementById('get-name');
 
-getName.innerText = `Hello ${askName}, Welcome to my Portfolio Page`
+// getName.innerHTML = `Hello ${askName},` +"<br>"+`Welcome to my Portfolio Page`
 
 
 
