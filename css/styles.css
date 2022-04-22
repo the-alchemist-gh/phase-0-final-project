@@ -77,7 +77,11 @@ header{
 }
 
 #project-section{
-  background-color: #ffc600;
+  /* background-color: #ffc600; */
+  background: #ffb347;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffcc33, #ffb347);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #000000;
   text-align: center;
   padding: 10px 50px;
@@ -94,11 +98,17 @@ header{
   display: flex;
   align-items: center;
   margin: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(242 242 242 / 36%);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  min-width: 400px;
 }
 
 .project-img{
   width:40%;
   height: 150px;
+  border-radius: 7px;
   overflow: hidden;
 }
 
@@ -125,10 +135,12 @@ header{
   border-radius: 5px;
   color: #fff;
   font-weight: 700;
+
 }
 
 .project-btn small{
   font-size: small;
   font-weight: 700;
   color: #505050;
+  margin-right: 30px;
 }

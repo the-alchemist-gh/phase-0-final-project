@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
   <title>Abdul Malik Jabel Yusif</title>
+  <script src="./js/data.js"></script>
 </head>
 <body>
   <main>
@@ -26,58 +27,7 @@
       <div id="project-section">
         <h2>Projects</h2>
         <div id="project-container">
-          <div class="project">
-            <div class="project-img">
-              <img src="images/project1.jpg" alt="Savanah Project">
-            </div>
-            <div class="project-text">
-              <h3 class="project-text-title">Project 1</h3>
-              <p class="project-text-desc">A description on project 1, when it started and when it ended</p>
-              <div class="project-btn">
-                <small>Date: 21-01-2022 </small>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-img">
-              <img src="images/project2.jpg" alt="Savanah Project">
-            </div>
-            <div class="project-text">
-              <h3 class="project-text-title">Project 1</h3>
-              <p class="project-text-desc">A description on project 1, when it started and when it ended</p>
-              <div class="project-btn">
-                <small>Date: 21-01-2022 </small>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-img">
-              <img src="images/project1.jpg" alt="Savanah Project">
-            </div>
-            <div class="project-text">
-              <h3 class="project-text-title">Project 1</h3>
-              <p class="project-text-desc">A description on project 1, when it started and when it ended</p>
-              <div class="project-btn">
-                <small>Date: 21-01-2022 </small>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
-          <div class="project">
-            <div class="project-img">
-              <img src="images/project2.jpg" alt="Savanah Project">
-            </div>
-            <div class="project-text">
-              <h3 class="project-text-title">Project 1</h3>
-              <p class="project-text-desc">A description on project 1, when it started and when it ended</p>
-              <div class="project-btn">
-                <small>Date: 21-01-2022 </small>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
       <div id="skills-section">
@@ -104,6 +54,22 @@
     </nav>
     
   </main>
-  
+  <template id="project-card">
+    <div class="project">
+      <div class="project-img">
+        <img class="project-img-real" src="images/project2.jpg" alt="Savanah Project">
+      </div>
+      <div class="project-text">
+        <h3 class="project-text-title">Project 1</h3>
+        <p class="project-text-desc">A description on project 1, when it started and when it ended</p>
+        <div class="project-btn">
+          <small class="project-btn-text">Date: 21-01-2022 </small>
+          <a href="">Read More</a>
+        </div>
+      </div>
+    </div>
+  </template>
+  <script src="./js/script.js"></script>
+
 </body>
 </html>
