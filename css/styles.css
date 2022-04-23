@@ -166,9 +166,26 @@ background: linear-gradient(to right, #ffcc33, #ffb347); /* W3C, IE 10+/ Edge, F
   margin:5px ;
 }
 
+.ind-skill{
+  width: 50%;
+  margin: auto;
+}
+
+.ind-skill div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ind-skill div small{
+  color: #838383;
+  font-weight: 800;
+  font-size: 12px;
+  align-self: flex-end;
+}
+
 .ph_meter {
   background: lightgrey;
-  width: 50%;
+  width: 100%;
 }
 .ph_meter:-moz-meter-optimum::-moz-meter-bar {
   background:indianred;
